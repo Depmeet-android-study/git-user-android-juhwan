@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Git-user-android-juhwan"
+include ':app'
+include ':core'
+include ':core-design-system'
+include ':data'
+include ':domain'
+include ':presentation'
+include ':presentation:home'
