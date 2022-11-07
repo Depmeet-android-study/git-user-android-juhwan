@@ -38,7 +38,6 @@ dependencies {
     implementation(project(":core"))
     implementation(project(":core-design-system"))
     implementation(project(":domain"))
-    implementation(project(":presentation:map"))
 
     implementation(jetpackDeps)
     implementation(coroutines)
